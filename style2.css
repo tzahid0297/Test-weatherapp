@@ -1,0 +1,49 @@
+.heading {
+  position: relative;
+  /* z-index: 2; */
+  text-align: center;
+  /* color: blue; */
+  margin: 90px auto 45px auto;
+}
+
+.units {
+  position: relative;
+  top: -20px;
+  left: 42px;
+  font-size: 20px;
+}
+
+.temp {
+  position: relative;
+  font-size: 1.5em;
+  font-weight: 400;
+  line-height: 1;
+  left: 35px;
+}
+
+#temp-description {
+  text-transform: capitalize;
+  margin: 25px auto;
+}
+
+#city {
+  text-transform: capitalize;
+}
+
+.icon img {
+  /* width: 100%; */
+  position: absolute;
+  bottom: 65%;
+  left: 40%;
+  /* top: -50%; */
+  /* left: -25%; */
+  /* opacity: 0.3; */
+}
+
+.otherData {
+  font-weight: bold;
+  margin-bottom: 50px;
+  text-align: center;
+  font-size: large;
+  color: cadetblue;
+}
